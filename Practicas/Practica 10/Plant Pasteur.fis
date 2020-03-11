@@ -1,0 +1,49 @@
+[System]
+Name='Plant Pasteur'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=2
+NumRules=4
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Milk_Temps'
+Range=[0 80]
+NumMFs=3
+MF1='Low':'trapmf',[0 0 30 60]
+MF2='Medium':'trapmf',[20 40 50 80]
+MF3='High':'trapmf',[20 60 80 80]
+
+[Input2]
+Name='Concentration'
+Range=[0 200]
+NumMFs=2
+MF1='Few':'trapmf',[0 0 80 160]
+MF2='Lots':'trapmf',[100 170 200 200]
+
+[Output1]
+Name='Burner'
+Range=[0 50]
+NumMFs=3
+MF1='Few':'trapmf',[0 0 10 30]
+MF2='Moderate':'trimf',[10 20 40]
+MF3='Max':'trimf',[25 50 50]
+
+[Output2]
+Name='Quimics'
+Range=[0 300]
+NumMFs=3
+MF1='Null':'trapmf',[0 0 50 110]
+MF2='Few':'trapmf',[0 90 120 220]
+MF3='Enough':'trimf',[150 300 300]
+
+[Rules]
+1 2, 3 0 (1) : 2
+0 2, 0 3 (1) : 2
+2 1, 2 2 (1) : 2
+3 1, 1 1 (1) : 1

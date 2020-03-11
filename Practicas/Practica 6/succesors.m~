@@ -1,0 +1,19 @@
+% x - Current vector, k - variable to change
+% last 3 colums from sucMatrix storage cost, permutation (n), 
+function sucMatrix = succesors(x, k)
+% memory prealocation. +3 because we need additional information           
+sucMatrix = zeros(length(x), length(x)+3);
+% diferent permutations of vector x
+for n=1:length(x)
+        xi = x;
+        xi(n) = x(k);
+        xi(k) = x(n);
+        sucMatrix(n, 1:length(x)) = xi;
+        sucMatrix(n, length(x)+1) = EvalNq(xi);
+        % Info needed later. Exact position where every queen is
+        sucMatrix(n, length(x)+2) = n;
+        sucMatrix(n, length(x)+3) = k;
+end
+% x is not succesor from itself
+sucMatrix(1,:) = [];
+end

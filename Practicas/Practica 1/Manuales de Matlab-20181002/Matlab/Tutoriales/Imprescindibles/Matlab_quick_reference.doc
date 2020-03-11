@@ -1,0 +1,307 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f6\fmodern\fcharset0\fprq1{\*\panose 00000000000000000000}Courier{\*\falt Courier New};}{\f14\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}
+{\f16\froman\fcharset238\fprq2 Times New Roman CE;}{\f17\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f19\froman\fcharset161\fprq2 Times New Roman Greek;}{\f20\froman\fcharset162\fprq2 Times New Roman Tur;}
+{\f21\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f28\fmodern\fcharset238\fprq1 Courier New CE;}{\f29\fmodern\fcharset204\fprq1 Courier New Cyr;}{\f31\fmodern\fcharset161\fprq1 Courier New Greek;}{\f32\fmodern\fcharset162\fprq1 Courier New Tur;}
+{\f33\fmodern\fcharset186\fprq1 Courier New Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\fi-288\li576\nowidctlpar\widctlpar\adjustright 
+\fs20\cgrid \snext0 Normal;}{\s1\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\lang1024\kerning28\cgrid \sbasedon0 \snext0 heading 1;}{\s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid \sbasedon0 \snext17 
+heading 2;}{\*\cs10 \additive Default Paragraph Font;}{\s15\qc\fi-288\li576\sb240\sa60\nowidctlpar\widctlpar\adjustright \b\fs28\kerning28\cgrid \sbasedon0 \snext15 Title;}{\s16\qc\fi-288\li576\sa60\nowidctlpar\widctlpar\adjustright \b\cgrid 
+\sbasedon0 \snext16 Subtitle;}{\s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid \sbasedon0 \snext17 Function Definition;}}{\info{\title MATLAB\'e2 Quick Reference}{\author Jerry C. Hamann}{\operator Jerry C. Hamann}
+{\creatim\yr1995\mo1\dy30\hr11\min25}{\revtim\yr1998\mo6\dy16\hr23\min31}{\printim\yr1995\mo1\dy30\hr17\min48}{\version29}{\edmins372}{\nofpages3}{\nofwords1207}{\nofchars6881}{\*\company Home}{\nofcharsws0}{\vern71}}
+\paperw15840\paperh12240\margl360\margr360\margt360\margb389 \widowctrl\ftnbj\aenddoc\lytprtmet\hyphcaps0\formshade\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot \fet0\sectd \lndscpsxn\psz1\linex0\headery360\cols3\endnhere\sectdefaultcl {\*\pnseclvl1
+\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5
+\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \s15\qc\fi-288\li576\sb240\sa60\nowidctlpar\widctlpar\adjustright \b\fs28\kerning28\cgrid {MATLAB}{\super {\field{\*\fldinst SYMBOL 226 \\f "Symbol"
+ \\s 14}{\fldrslt\f3\fs28}}}{ Quick Reference
+\par }\pard\plain \s16\qc\fi-288\li576\sa60\nowidctlpar\widctlpar\adjustright \b\cgrid {For MATLAB}{\super {\field{\*\fldinst SYMBOL 226 \\f "Symbol" \\s 12}{\fldrslt\f3\fs24}}}{ Version 5
+\par }{\fs16 MATLAB}{\fs16\super {\field{\*\fldinst SYMBOL 226 \\f "Symbol" \\s 8}{\fldrslt\f3\fs16}}}{\fs16\super  }{\fs16  is a registered trademark of The MathWorks, Inc., Natick, Massachussettes
+\par Suggested corrections or modifications of this Quick Reference should be directed to }{\f6\fs16 hamann@uwyo.edu
+\par }{\fs16 Reference card version 061698
+\par }\pard\plain \s1\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\lang1024\kerning28\cgrid {MATLAB Workspace and Variables
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {The MATLAB Interactive Prompt
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b >>
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Variable Name Conventions
+\par }\pard\plain \fi-288\li576\nowidctlpar\widctlpar\adjustright \fs20\cgrid {MATLAB }{\ul is}{ case sensitive!
+\par First character must be a letter }{\b\f6 A-Z}{ or }{\b\f6 a-z}{
+\par Up to 31 letters, digits and underscores describe a unique variable name
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Default MATLAB Variables
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b ans}{\tab }{\f0 result of last unassigned calculation}{
+\par }{\b eps}{\tab }{\f0 a tolerance used in iterative calculations
+\par }{\b flops}{\f0 \tab count of floating point operations}{
+\par }{\b i}{\tab }{\f0 the complex ordinate equal to }{\b sqrt(-1)}{\f0  
+\par }{\b Inf}{\f0 \tab infinity (e.g., result of }{\b 1/0}{\f0 )
+\par }{\b j}{\f0 \tab the complex ordinate equal to }{\b sqrt(-1)}{
+\par }{\b NaN}{\tab }{\f0 Not a Number (e.g. result of}{ }{\b 0/0}{\f0 )
+\par }{\b pi}{\f0 \tab ratio of the circumference of a circle to its diameter, equal to}{ }{\b 4*atan(1)
+\par realmax, realmin
+\par }{\tab }{\f0 largest and smallest real numbers representable on given computer
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Command/Figure Window Control
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b clc}{\tab }{\f0 clear the command window
+\par }{\b clf}{\tab }{\f0 clear the current figure window
+\par }{\b home}{\f0 \tab place command window cursor at top left
+\par }{\b more}{\f0 \tab enable/disable paging of displayed output}{
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {MATLAB "Data Types" and Classes
+\par }\pard\plain \fi18\li270\nowidctlpar\widctlpar\adjustright \fs20\cgrid {The basic data type in MATLAB is an }{\b array}{, typically an }{\f6 r}{{\field{\*\fldinst SYMBOL 180 \\f "Symbol" \\s 10}{\fldrslt\f3\fs20}}}{\f6 c}{ matrix (}{\f6 r}{ rows, }{\f6 c}
+{ columns).  The user typically need not explicitly define a data type, simple assignment completes the definition.  Here are the fundamental types:
+\par }\pard \fi-792\li1080\nowidctlpar\widctlpar\adjustright {\b\f2 cell}{\b  \tab }{Collection of un-equally sized arrays of data.
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b char}{\tab }{\f0 Each element of the array is a two-byte integer value describing the corresponding ASCII value of the character.
+\par }{\b\f2 numeric}{\f0 \tab Parent type of double, uint8, sparse.
+\par }{\b\f2 double}{\f0 \tab Standard numeric type, 8-byte real or 16-byte complex
+\par }{\b\f2 uint8}{\b\f0 \tab }{\f0 Unsigned 8-bit integer (0 to 255)
+\par }{\b\f2 sparse}{\f0 \tab Space saving form for matrices containing a high percentage of zero valued elements.  Explicitly generated via }{sparse}{\f0 .  Conversion back via }{full.
+\par }{\b struct}{\tab }{\f0 User definable data structure, using sub-named \ldblquote field elements\rdblquote  of a base variable name.
+\par }{\b UserObject}{ }{\f0 User definable data structure with constructors and methods, allowing overloading and inheritance.
+\par }{\b inline}{ }{\f0 User definable inline functions 
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Useful Workspace Functions
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b clear}{\tab }{\f0 clear all or selected variables (or functions) from the current workspace
+\par }{\b\f2 format}{\f0 \tab modify format of command window displays (number format, blank space)
+\par }{\b\f2 inmem}{\f0 \tab list of function names currently compiled into workspace memory}{
+\par }{\b length}{\f0 \tab number of elements in a vector, or }{\b\f2 max(size(}{\b\i\f2 the_mat}{\b\f2 ))}{\f2 
+\par }{\b load}{\f0 \tab read variables in from a disk file, default file name is }{\b matlab.mat}{
+\par }{\b pack}{\tab }{\f0 defragment memory by cleaning up
+\par }{\b save}{\f0 \tab store all or selected variables to a disk file, default file name is }{\b matlab.mat}{
+\par }{\b size}{\tab }{\f0 display dimensions of a particular array
+\par }{\b ver}{\f0 \tab current MATLAB and ToolBox versions}{
+\par }{\b who}{\tab }{\f0 displays current workspace variable names
+\par }{\b whos}{\f0 \tab displays current workspace variable names, types and associated sizes
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {The MATLAB PATH and Environment
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b cd}{\tab }{\f0 change the current directory to a specified drive and directory .  If no directory is specified, the current directory name is displayed.
+\par }{\b dir}{\f0 \tab list all files in the current directory}{
+\par }{\b path}{\tab }{\f0 display or modify the function search path
+\par }{\b what}{\tab }{\f0 list the M-files, MAT-files,  MEX-files, P-files, and MDL-models in the current or specified directory
+\par }{\b which}{\f0 \tab display the full pathname to the specified function}{
+\par }\pard\plain \s1\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\lang1024\kerning28\cgrid {Standard Calculations and Operations
+\par }\pard\plain \fi-288\li576\nowidctlpar\widctlpar\adjustright \fs20\cgrid {The default calculation mode of MATLAB obeys the restrictions of conventional matrix/vector algebra (i.e. the row and column dimensions of variables must be consistent).
+\par MATLAB automatically displays the results of any expression unless a semi-colon "}{\b\f6 ;}{" is appended to the end of the expression.
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Assigning Values to Variables
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\f0 Explicit assignment using "}{;}{\f0 " for row endings}{:
+\par \tab }{\b >> A=[1 2 3; 4 5 6; 7 8 9];
+\par }{\f0 Explicit assignment using new line for row endings:
+\par \tab }{\b >> A=[1 2 3
+\par \tab 4 5 6
+\par \tab 7 8 9];}{
+\par }{\f0 Single long lines continued with ellipsis }{\b\f2 ...}{\f0 
+\par \tab }{\b >> long_row=[1 2 3 4 5 6 ...
+\par \tab 7 8 9 10 11 12 13 14 15];}{\f0 
+\par Explicit assignment from function return:
+\par \tab }{\b >> R=rand(5);
+\par \tab >> e=eig(R);
+\par \tab >> [V,D]=eig(R);
+\par }{\f0 Multidimensional arrays are valid:
+\par \tab }{\b >> A=rand(2,2,3);
+\par \tab >> B=cat(3,V,D);}{
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Useful Ways to \ldblquote Build\rdblquote  Variables
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\f0 Generating sequential vectors with the colon "}{:}{\f0 "
+\par \tab }{\b >> a=0:0.1:0.5
+\par \tab a=[0 0.1 0.2 0.3 0.4 0.5]}{
+\par }{\f0 Built-in functions for construction:
+\par }{\b linspace}{\tab }{\f0 linearly spaced values
+\par }{\b logspace}{\tab }{\f0 logarithmically spaced values}{
+\par }{\b ones}{\tab \tab }{\f0 array of all ones
+\par }{\b rand}{\tab }{\f0 uniformally distributed random values}{
+\par }{\b randn}{\tab }{\f0 normally distributed random values}{
+\par }{\b repmat}{\tab \tab }{\f0 build new matrix by tiling}{
+\par }{\b\f2 reshape}{ \tab }{\f0 reform matrix columnwise
+\par }{\b zeros}{\tab \tab }{\f0 array of all zeros}{
+\par }{\f0 Building by concatenating composite matrices
+\par \tab }{\b >> G=[1 2; 3 4];
+\par \tab >> BIG=[G G; G G];}{
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Standard Matrix Algebraic Operations
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b +}{\tab }{\f0 addition, }{\b\f2 plus}{\f0  (or unary plus }{\b\f2 uplus}{\f0 )
+\par }{\b -}{\tab }{\f0 subtraction, }{\b\f2 minus}{\f0   (or unary }{\b\f0 uminus}{\f0 )
+\par }{\b *}{\tab }{\f0 multiplication, }{\b\f2 mtimes}{\f0 
+\par }{\b ^}{\tab }{\f0 to the power of, }{\b\f2 mpower}{\f0 
+\par }{\b '}{\tab }{\f0 conjugate transpose, }{\b\f2 ctranspose}{\f0 
+\par }{\b \\}{\tab }{\f0 left division (}{\b x=A\\b}{\f0  is solution of }{\b A*x=b}{\f0 ), }{\b\f2 mldivide}{\f0 
+\par }{\b /}{\tab }{\f0 right division (}{\b x=b/A}{\f0  is solution of }{\b x*A=b}{\f0 ), }{\b\f2 mrdivide}{\f0 
+\par }\pard\plain \s2\keepn\nowidctlpar\widctlpar\tx540\outlinelevel1\adjustright \b\lang1024\cgrid {Vectorized Calculations (The "DOT")
+\par }\pard\plain \fi-288\li576\nowidctlpar\widctlpar\adjustright \fs20\cgrid {The multiplication (}{\b\f6 *}{), power (}{\b\f6 ^}{) and division (}{\b\f6 \\}{\f6 ,}{\b\f6 /}{) operations can be carried out in an element-by-element manner by pre-pending a
+ dot or period (}{\b\f6 .}{) to the operator.
+\par Example:\tab }{\b\f6 >> [2  3  5].*[1  4  6]
+\par \tab \tab \tab ans = [2  12  30]}{\f6 
+\par }\pard\plain \s2\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Standard Logic Operators and Overloads
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b <}{\tab }{\f0 less than, }{\b\f2 lt}{\f0 
+\par }{\b <=}{\tab }{\f0 less than or equal, }{\b\f2 le}{
+\par }{\b >}{\tab }{\f0 greater than, }{\b\f2 gt}{\f0 
+\par }{\b >=}{\tab }{\f0 greater than or equal, }{\b\f2 ge}{\f0 
+\par }{\b ==}{\tab }{\f0 equal (test, not assignment), }{\b\f2 eq}{
+\par }{\b ~=}{\tab }{\f0 not equal, }{\b\f2 ne}{\f0 
+\par }\pard\plain \s1\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\lang1024\kerning28\cgrid {More Logic Operators
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b &}{\tab }{\f0 logical AND, }{\b\f2 and}{
+\par }{\b |}{\tab }{\f0 logical OR, }{\b\f2 or}{
+\par }{\b ~}{\tab }{\f0 logical NOT, }{\b\f2 not}{
+\par }{\b xor}{\tab }{\f0 logical EXCLUSIVE-OR
+\par }\pard\plain \s1\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\lang1024\kerning28\cgrid {Logical Functions
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b all}{\tab }{\f0 true if all elements true}{
+\par }{\b any}{\tab }{\f0 true if any element true}{
+\par }{\b exist}{\tab }{\f0 determine existence of function or variable
+\par }{\b find}{\tab }{\f0 determine indices of nonzero elements}{
+\par }{\b isa, ischar, isempty, isfield isfinite, isglobal, ishold, isieee, isinf, isletter, islogical, ismember, isnan, isobject, isreal, issparse, isspace, isstr, isstruct
+\par }\pard\plain \s1\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\lang1024\kerning28\cgrid {Using the Colon Indexing Operation
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b A(2,3)}{\tab }{\f0 element in row 2, column 3
+\par }{\b A(:,3)}{\tab }{\f0 all elements in column 3
+\par }{\b A(1,:)}{\f0 \tab all elements in row 1
+\par }{\b A(1:2,3:5)}{\b\f0 \tab 
+\par }{\f0 \tab the submatrix consisting of rows 1 thru 2 of columns 3 thru 5
+\par }{\b A(:)}{\f0 \tab produce column vector of full contents
+\par }{\b\f2 A(1,end)}{\tab }{\f0 last element in first row
+\par }{\b\f2 squeeze}{\tab }{\f0 remove singleton dimensions
+\par }{\b\f2 sub2ind, ind2sub}{ }{\f0 to convert single indices
+\par }\pard\plain \s1\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\lang1024\kerning28\cgrid {Programming Constructs
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Comment Designator %
+\par }\pard\plain \fi-288\li576\nowidctlpar\widctlpar\adjustright \fs20\cgrid {Any characters on the same line and following the percent (}{\b\f2 %}{) are ignored by MATLAB.
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Script M-Files
+\par }\pard\plain \fi-288\li576\nowidctlpar\widctlpar\adjustright \fs20\cgrid {Sequences of MATLAB commands can be stored in text files with extension }{\b\f6 .m}{
+ .  The files can be executed from the keyboard by typing the file name excluding extension (assuming the file resides in the PATH) or by selecting }{\f6\ul F}{\f6 ile/}{\f6\ul R}{\f6 un}{ from the MATLAB Command Window Menu.
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Function M-Files
+\par }\pard\plain \fi-288\li576\nowidctlpar\widctlpar\adjustright \fs20\cgrid {Modular programming is provided by text files, having extension }{\b\f6 .m}{
+ , which obey a strict but simple function call format.  The first line of such files must describe the return variable or variables, the function name, and the pass variable or variables.  A simple example:
+\par }{\b\f6 function [ravg,rsum]=stats(inmat)
+\par % STATS Sum and average
+\par % [RAVG,RSUM]=STATS(INMAT)
+\par % Computes the sum and average of
+\par % the input vector.
+\par rsum=sum(inmat);
+\par ravg=avg(inmat);
+\par % End of function file stats.m
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Self-Documenting M-Files
+\par }\pard\plain \fi-288\li576\nowidctlpar\widctlpar\adjustright \fs20\cgrid {The H1 or first comment line is searched by}{\f6  }{\b\f6 lookfor}{\f6  }{when a keyword search is attempted.}{\f6   }{\b\f6 help}{\f6  \tab }{returns the first block of comments.
+
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Program Control Constructs
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b\f0 The "for" Loop}{\f0 
+\par }{\b for k=}{\b\i vector_or_column_list
+\par \tab statement_or_statements
+\par }{\b end}{
+\par }{\b\f0 The "while" Loop}{
+\par }{\b while }{\b\i conditional_test
+\par \tab statement_or_statements
+\par }{\b end}{
+\par }{\b\f0 The "if/else" Test}{
+\par }{\b if }{\b\i conditional_test}{\b 
+\par }{\b\i \tab statement_or_statements
+\par }{\b elseif }{\b\i conditional_test
+\par \tab statement_or_statements
+\par }{\b else
+\par \tab }{\b\i statement_or_statements
+\par }{\b end}{
+\par }{\b\f0 Premature Loop "Exits"
+\par }{\b break}{\f0 \tab depart from current }{end}{\f0  level
+\par }{\b\f0 The "switch/case" Selection}{
+\par }{\b switch }{\b\i evaluation_statement}{\b 
+\par }{\b\i \tab statement_or_statements
+\par }{\b case }{\b\i value
+\par \tab statement_or_statements
+\par }{\b otherwise
+\par \tab }{\b\i statement_or_statements
+\par }{\b end
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Useful Function M-File Funcs/Vars
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b nargin}{\tab \tab }{\f0 number of input arguments
+\par }{\b nargout}{\tab }{\f0 number of output arguments
+\par }{\b varargin}{\tab }{\f0 var. length input argument list
+\par }{\b varargout}{\tab }{\f0 var. length output argument list
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Useful M-File Auxiliary Functions
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b disp}{\tab \tab }{\f0 display string
+\par }{\b echo}{\tab \tab }{\f0 enable, disable command echo
+\par }{\b error}{\tab \tab }{\f0 display message and abort
+\par }{\b global}{\b\f0 \tab }{\f0 \tab define global variable}{
+\par }{\b input\tab }{\tab }{\f0 prompt for input
+\par }{\b keyboard}{\tab }{\f0 invoke keyboard input
+\par }{\b mfilename}{\tab }{\f0 name of current M-file}{
+\par }{\b pause}{\tab \tab }{\f0 wait for time or user response}{
+\par }{\b return}{\tab \tab }{\f0 return to caller
+\par }{\b waitforbuttonpress}{\b\f0 
+\par }{\b warning}{\tab }{\f0 display warning messages
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Functions/Variables for Performance
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b tic, toc}{\tab }{\f0 stopwatch timer functions
+\par }{\b profile}{\tab }{\f0 detailed M-file performance eval
+\par }\pard\plain \s2\li144\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\lang1024\cgrid {Functions for Debugging (}{\f2 dbquit}{)
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b dbstop at }{\b\i line_num}{\b  in }{\b\i file_name}{\b\f0 
+\par }{\b dbstop if }{\b\i \{warning,error,naninf\}}{\b\f0 
+\par }{\b dbclear at }{\b\i line_num}{\b  in }{\b\i file_name
+\par }{\b dbcont}{\b\f0 
+\par }{\b dbstack\tab dbtype\tab dbstep}{\b\f0 
+\par }{\b dbstatus\tab dbdown\tab dbup}{\b\f0 
+\par }\pard\plain \s1\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\lang1024\kerning28\cgrid {Basic Two Dimensional Graphing
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b plot}{\tab \tab }{\f0 basic 2-D plots
+\par }{\b plotyy}{\tab \tab }{\f0 2-D with separate y-axes
+\par }{\b semilogx}{\tab }{\f0 2-D with log x-axis
+\par }{\b help graph2d}{\tab }{\f0 more 2-D plotting
+\par }{\b \tab loglog\tab polar
+\par help specgraph}{\tab }{\f0 fancy 2-D graphs
+\par }{\b \tab area\tab bar\tab  comet
+\par \tab errorbar\tab feather
+\par \tab hist\tab pareto
+\par \tab pie\tab quiver ribbon\tab 
+\par \tab stem\tab stairs
+\par \tab voronoi
+\par }{\f0 
+\par }\pard\plain \s1\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\lang1024\kerning28\cgrid {Basic Three Dimensional Graphing
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b plot3, mesh}{\tab }{\f0 basic 3-D plots
+\par }{\b meshgrid}{\tab \tab }{\f0 generate 3-D XY data
+\par }{\b help graph3d}{\tab }{\f0 more 3-D plotting
+\par }{\b \tab fill3\tab surf
+\par help specgraph}{\tab }{\f0 fancy 3-D graphs
+\par }{\b \tab comet3 \tab contour\tab contour3
+\par \tab mesh\tab meshc\tab \tab meshz
+\par \tab quiver3\tab slice\tab \tab stem3
+\par \tab surfc\tab waterfall
+\par }\pard\plain \fi-288\li576\nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab \tab 
+\par }\pard\plain \s1\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\lang1024\kerning28\cgrid {Basic Graph Annotation
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b ginput}{\tab \tab }{\f0 point and click graph input
+\par }{\b gtext}{\tab \tab }{\f0 point and click text placement
+\par }{\b legend}{\tab \tab }{\f0 display graph legend
+\par }{\b text}{\tab \tab }{\f0 place text on plot
+\par }{\b title}{\tab \tab }{\f0 place title on plot
+\par }{\b xlabel}{\tab \tab }{\f0 place text label on x-axis
+\par }{\b ylabel}{\tab \tab }{\f0 place text label on y-axis
+\par }{\b zlabel}{\tab \tab }{\f0 place text label on z-axis
+\par }\pard\plain \s1\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\lang1024\kerning28\cgrid {
+\par Graph/Figure Controls
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b axes}{\tab \tab }{\f0 control of axes locations}{\b 
+\par axis}{\tab \tab }{\f0 control of axes limits/aspect
+\par }{\b box}{\tab \tab }{\f0 box around graph
+\par }{\b close}{\tab \tab }{\f0 close plot window(s)
+\par }{\b figure}{\tab \tab }{\f0 open or move to specific plot window
+\par }{\b gca}{\tab \tab }{\f0 current axis handle
+\par }{\b gcf}{\tab \tab }{\f0 current figure window handle
+\par }{\b grid}{\tab \tab }{\f0 turn grid off or on
+\par }{\b hold}{\tab \tab }{\f0 control multiple plots on single axis
+\par }{\b print}{\tab \tab }{\f0 send figure window to graphics output
+\par }{\b rotate3d}{\tab }{\f0 interactive 3-D viewing
+\par }{\b set, get}{\tab }{\f0 access handle graphics elements
+\par }{\b subplot}{\tab }{\f0 control multiple plots in one window
+\par }{\b view}{\tab \tab }{\f0 select viewpoint
+\par }{\b zoom}{\tab \tab }{\f0 enable mouse-based zooming
+\par }\pard\plain \s1\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\lang1024\kerning28\cgrid {
+\par Color and Lighting Control
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b brighten}{\tab }{\f0 brighten or darken color map
+\par }{\b caxis}{\tab \tab }{\f0 pseudocolor axis scaling
+\par }{\b colormap}{\tab }{\f0 color look-up table
+\par }{\b diffuse}{\tab }{\f0 diffuse reflectance
+\par }{\b hidden\tab }{\tab }{\f0 hidden line removal mode setting
+\par }{\b lighting}{\tab }{\f0 lighting mode
+\par }{\b material}{\tab }{\f0 material reflectance mode
+\par }{\b shading}{\tab }{\f0 color shading mode
+\par }{\b specular}{\tab }{\f0 adjust reflectance
+\par }{\b surfl}{\tab \tab }{\f0 3-D shaded surface with lighting
+\par }\pard\plain \s1\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\lang1024\kerning28\cgrid {
+\par Standard Image I/O
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b image}{\tab \tab }{\f0 display image in figure window
+\par }{\b imfinfo}{\tab }{\f0 read image info from file
+\par }{\b imread\tab }{\tab }{\f0 read image from file
+\par }{\b imwrite}{\tab }{\f0 write image to file
+\par }\pard\plain \fi-288\li576\nowidctlpar\widctlpar\adjustright \fs20\cgrid {\lang1024 {\field{\*\fldinst SYMBOL 224 \\f "Wingdings" \\s 10}{\fldrslt\f14\fs20}}}{ types supported:\tab }{\b\f2 BMP\tab HDF\tab JPEG
+\par \tab \tab \tab \tab PCX\tab TIFF\tab XWD
+\par }\pard\plain \s1\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\lang1024\kerning28\cgrid {Getting Help
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b help}{\tab }{\f0 from command line, accesses help for all functions in the }{path
+\par }{\b helpdesk}{  }{\f0 from command line, initiates web browser access to online manuals}{
+\par }{\b helpwin}{ }{\f0 from command line, opens window for hypertext access to online help
+\par }{\b lookfor}{\f0 \tab search for H1 keyword
+\par }{\b\ul H}{\b elp/}{\f0  \tab menu access to help facilities
+\par }{\b\ul 
+\par }\pard\plain \s1\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\lang1024\kerning28\cgrid {Sound and Audio
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b help datafun}{\b\ul 
+\par }{
+\par }\pard\plain \s1\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\lang1024\kerning28\cgrid {Numerical Function Eval and ODE Solvers
+\par }\pard\plain \s17\fi-792\li1080\nowidctlpar\widctlpar\tx1080\adjustright \f6\fs20\cgrid {\b help funfun}{
+\par }}
